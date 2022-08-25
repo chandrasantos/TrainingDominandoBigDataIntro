@@ -1,14 +1,14 @@
 ﻿// *****
 // Elementos constituintes basicos da ECL
 // Uma definicao
-//Mydef := 'Olá mundo';  // definicao do tipo "value"
+// Mydef := 'Olá mundo';  // definicao do tipo "value"
 
 // Uma acao
-OUTPUT('Olá mundo');
+// OUTPUT('Olá mundo');
 //OUTPUT(mydef);
 // *****
 // Estruturas de dados basicas em ECL
-// Estrutura RECORD
+Estrutura RECORD
 /*
 rec := RECORD
   STRING10  Firstname;
@@ -19,7 +19,7 @@ rec := RECORD
 	DECIMAL7_2 Income;
 END;
 
-// Declaracao DATASET
+Declaracao DATASET
 ds := DATASET([{'Alysson','Oliveira','M',26,100,1000.50},
                {'Bruno','Camargo','',22,-100,500.00},
 							 {'Elaine','Silva','F',19,-50,750.60},
@@ -28,7 +28,7 @@ ds := DATASET([{'Alysson','Oliveira','M',26,100,1000.50},
 							 {'Orlando','Silva','U',67,300,4000}],rec);
 OUTPUT(ds);
 */
-// *****
+*****
 // Filtragem e tabulaçao de datasets
 // recset := ds(Age<65);
 // recset; //Equivale a: OUTPUT(recset);
