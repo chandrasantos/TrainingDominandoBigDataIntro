@@ -8,7 +8,7 @@
 //OUTPUT(mydef);
 // *****
 // Estruturas de dados basicas em ECL
-Estrutura RECORD
+//Estrutura RECORD
 /*
 rec := RECORD
   STRING10  Firstname;
@@ -28,7 +28,7 @@ ds := DATASET([{'Alysson','Oliveira','M',26,100,1000.50},
 							 {'Orlando','Silva','U',67,300,4000}],rec);
 OUTPUT(ds);
 */
-*****
+//*****
 // Filtragem e tabulaçao de datasets
 // recset := ds(Age<65);
 // recset; //Equivale a: OUTPUT(recset);
